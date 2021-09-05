@@ -128,3 +128,232 @@ body {
     opacity: 0.4;
     margin-bottom: 32px;
 }
+
+/*_______________________SECTION-THREE______________________*/
+
+.features {
+    margin: 75px 0 60px;
+}
+
+.link-more {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0065F2;
+    font-weight: 500;
+}
+
+.arrow::after {
+    content: url('../img/img/line.svg');
+    margin-left: 8px;
+}
+
+.txt-opacity {
+    opacity: 1;
+}
+
+.ratio {
+    width: 100%;
+}
+
+.ratio-16x9 {
+    --bs-aspect-ratio: calc(9 / 16 * 100%);
+    margin-bottom: 24px;
+}
+
+/*_______________________SECTION-FOUR______________________*/
+
+.four {
+    margin-top: 100px;
+}
+
+.features-txt {
+    width: 450px;
+}
+
+.section-title-section-inner {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.txt-description-section-inner {
+    margin-bottom: 10px;
+}
+
+.feature-one, .feature-two{
+    width: 190px;
+    margin-top: 16px;
+}
+
+.features-column {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.features-descriptions {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+/*_______________________SECTION-SIX______________________*/
+
+.six {
+    padding-bottom: 60px;
+}
+
+.section-sever-title {
+    padding: 40px 0 40px 0;
+}
+
+.tagline-txt-section-two {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    margin-bottom: 15px;
+}
+
+.section-title-section-two {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+.subscribe-longest {
+    margin-bottom: 42px;
+}
+
+.duration-spacing-right {
+    margin-left: 10px;
+}
+
+.duration {
+    width: 90px;
+    height: 34px;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+.active-duration {
+    font-weight: 600;
+    color: #0065F2;
+    border-bottom: 2px solid #0065F2;
+}
+
+.card-subscribe {
+    width: 350px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-subscribe-body {
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+  
+.card-subtitle {
+    margin-top: -0.25rem;
+    margin-bottom: 0;
+}
+  
+.card-text-amount:last-child {
+    margin-bottom: 0;
+}
+
+.card-subscribe-type {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.card-text-amount {
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.subscribe-amount {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.card-privilege-list {
+    list-style:inside;
+}
+
+.card-text-info {
+    line-height: 24px;
+    margin: 26px 0 24px 0;
+}
+
+.card-privilege-list {
+    line-height: 24px;
+}
+
+.btn {
+    width: 302px;
+    height: 48px;
+    background: #0065F2;
+}
+
+.btn-subscribe {
+    color: #fff;
+    padding: 15px 127px;
+}
+
+.btn-left {
+    margin-top: 126px;
+}
+
+.btn-center {
+    margin-top: 78px;
+}
+
+.btn-right {
+    margin-top: 54px;
+}
+/*_______________________SECTION-SEVEN______________________*/
+
+.section-seven-title-txt {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 55px 0 35px 0;
+}
+
+/*_______________________FOOTER______________________*/
+
+.company {
+    padding: 94px 0 44px;
+}
+
+.footer-link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-item:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.s-m-item:not(:last-of-type) {
+    margin-right: 12px;
+}
+
+.rights-txt, .terms-txt {
+    font-size: 14px;
+    color: #999999;
+    margin-left: 17px;
+}
+
+.paragraph-footer {
+    padding-bottom: 32px;
+}
