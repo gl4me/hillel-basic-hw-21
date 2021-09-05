@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;  
+    height: 100%; 
+}
+
+body {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+*,
+*:before
+*:after {
+	box-sizing: border-box;
+}
+
+/*_______________________HEADER______________________*/
+
+.container-header {
+    width: 100%;
+    padding: 0;
+}
+
+.header-section {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(255,255,255,0.8155637254901961) 75%, rgba(255,255,255,0.4766281512605042) 89%, rgba(255,255,255,0) 100%);
+}
+
+.header-navbar {
+    padding: 12px 30px 12px 40px;
+}
+
+.navbar-menu  {
+    display: flex;
+    flex-basis: 52%;
+}
+
+.nav-item:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo {
+    flex-basis: 51.5%;
+}
+
+.button-item {
+    flex-basis: 0 auto;
+    align-items: flex-end;
+}
+
+.button-link {
+    background-color: #0065F2;
+    border: none;
+    padding: 10px 18px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+/*_______________________SECTION-ONE______________________*/
+
+.one {
+    margin: 60px 0 90px;
+}
+
+.container-section {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.txt-content {
+    padding-top: 106px;
+}
+
+.section-title-section-one {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+.txt-description-section-one {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #0065F2;
+    border: 15px solid transparent;
+    color: white;
+    font-size: 16px;
+    width: 124px;
+    cursor: pointer;
+}
+
+/*_______________________SECTION-TWO______________________*/
+
+.two {
+    margin: 30px 0 40px;
+}
+
+.txt-description-section-two {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.4;
+    margin-bottom: 32px;
+}
